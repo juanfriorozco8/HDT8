@@ -15,7 +15,7 @@ public class Patient implements Comparable<Patient> {
 
     @Override
     public int compareTo(Patient other) {
-        return this.priority.compareTo(other.priority); // A < B < C < D < E
+        return this.priority.compareTo(other.priority);
     }
 
     @Override
@@ -23,3 +23,4 @@ public class Patient implements Comparable<Patient> {
         return name + " - " + condition + " (Prioridad: " + priority + ")";
     }
 }
+
